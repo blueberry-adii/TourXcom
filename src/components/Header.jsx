@@ -5,14 +5,14 @@ export const Header = () => {
     <header className="sticky top-0 z-50 flex justify-between items-center px-6 py-4 backdrop-blur-xl bg-white/1 shadow-md">
       <div className="text-2xl font-semibold">Aditya Prasad</div>
       <ul className="flex items-center gap-6">
-        <li className="cursor-pointer transition-all hover:text-blue-500 duration-300">
-          About
+        <li className="transition-all hover:text-blue-400 duration-300">
+          <a href="">About</a>
         </li>
-        <li className="cursor-pointer transition-all hover:text-blue-500 duration-300">
-          Projects
+        <li className="transition-all hover:text-blue-400 duration-300">
+          <a href="">Projects</a>
         </li>
-        <li className="cursor-pointer transition-all hover:text-blue-500 duration-300">
-          Contact
+        <li className="transition-all hover:text-blue-400 duration-300">
+          <a href="">Contact</a>
         </li>
       </ul>
     </header>
