@@ -3,7 +3,10 @@ import React from "react";
 export const Header = () => {
   return (
     <header className="sticky top-0 z-50 flex justify-between items-center px-6 py-4 backdrop-blur-xl bg-white/1 shadow-md">
-      <div className="text-2xl font-semibold">Aditya Prasad</div>
+      <div className="flex text-2xl font-semibold">
+        <div>Aditya</div>&nbsp;
+        <div className="text-rose-500">Prasad</div>
+      </div>
       <ul className="flex items-center gap-6">
         <li className="transition-all hover:text-blue-400 duration-300">
           <a href="">About</a>
@@ -18,5 +21,3 @@ export const Header = () => {
     </header>
   );
 };
-
-export default Header;
