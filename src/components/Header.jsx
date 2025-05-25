@@ -7,7 +7,7 @@ export const Header = () => {
         <div>Aditya</div>&nbsp;
         <div className="text-rose-500">Prasad</div>
       </div>
-      <ul className="flex items-center gap-6">
+      <ul className="text-sm flex items-center gap-4">
         <li className="transition-all hover:text-blue-400 duration-300">
           <a href="">About</a>
         </li>

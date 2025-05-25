@@ -22,15 +22,15 @@ export const About = () => {
 
   return (
     <>
-      <div className="h-auto flex flex-col justify-center pl-8">
-        <div className="mt-32 text-rose-500 mb-12 flex text-6xl font-bold min-h-8">
+      <div className="h-auto flex flex-col justify-center items-center px-8">
+        <div className="my-8 leading-16 max-[400px]:leading-12 text-rose-500 flex text-[min(16vw,70px)] max-w-[min(65vw,480px)] font-bold text-center">
           {text}
         </div>
-        <div className="mt-4 mr-4 max-w-xl">
+        <div className="max-w-xl text-justify">
           I am a frontend developer, and a student studying at BMSIT&M
           Bengaluru, India. Currently learning Backend web dev and more!! I had
           started learning frontend web dev since mid 2024 and currently I have
-          a good grasp at it with the following stack
+          a good grasp at it with the following stack.
         </div>
       </div>
     </>
